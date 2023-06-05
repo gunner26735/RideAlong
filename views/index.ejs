@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include('partials/header') %>
+  </head>
+
+  <body>
+    <!-- navigation bar -->
+    <%- include('partials/nav') %>
+
+    <!-- top heading with image and (signup login button) or (ride request or give ride button) -->
+    <div class="masterhead fs-3">
+      <span
+        >Ride With RideAlong and save your money & get company of others.</span
+      >
+
+      <div class="row row-cols-1 row-cols-lg-2">
+        <div class="col my-auto">
+          So What are you?
+          <%- include('partials/common') %>
+        </div>
+
+        <div class="col">
+          <img src="images/ride-final.png" alt="" class="img-fluid" />
+        </div>
+      </div>
+    </div>
+
+    <!-- features -->
+    <div class="container mt-5" id="features">
+      <h2 class="py-3 border-bottom">The best of carpooling with RideAlong</h2>
+      <div class="row py-5 row-cols-1 row-cols-lg-3 row-gap-5 mx-3">
+        <div class="col">
+          <span class="bg-primary p-2 px-3 rounded fs-3 text-light">
+            <i class="bi bi-cash-coin"></i>
+          </span>
+          <p></p>
+          <h2>Your pick of rides at low prices</h2>
+          <p>
+            No matter where you’re going, by bus or carpool, find the perfect
+            ride from our wide range of destinations and routes at low prices.
+          </p>
+          <p></p>
+        </div>
+        <div class="col">
+          <span class="bg-primary p-2 px-3 rounded fs-3 text-light">
+            <i class="bi bi-person-fill-check"></i>
+          </span>
+          <p></p>
+          <h2>Trust who you travel with</h2>
+          <p>
+            We take the time to get to know each of our members and bus
+            partners. We check reviews, profiles and IDs, so you know who you’re
+            travelling with and can book your ride at ease on our secure
+            platform.
+          </p>
+        </div>
+        <div class="col">
+          <span class="bg-primary p-2 px-3 rounded fs-3 text-light"
+            ><i class="bi bi-lightning-fill"></i
+          ></span>
+          <p></p>
+          <h2>Scroll, click, tap and go!</h2>
+          <p>
+            Booking a ride has never been easier! Thanks to our simple app
+            powered by great technology, you can book a ride close to you in
+            just minutes.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!--  about safety -->
+    <div class="scam bg-info">
+      <div class="container text-center">
+        <div class="row align-items-center row-cols-1 row-cols-lg-2">
+          <div class="col">
+            <img src="images/safe.svg" alt="" srcset="" />
+          </div>
+          <div class="col text-white">
+            <h3>Your safety is our priority</h3>
+            <h5>
+              At RideAlong, we're working hard to make our platform as secure as
+              it can be. But when scams do happen, we want you to know exactly
+              how to avoid and report them. Follow our tips to help us keep you
+              safe.
+            </h5>
+
+            <a
+              href="/scam"
+              class="btn btn-light btn-lg rounded-pill text-info mt-3 fw-semibold"
+              >Learn more</a
+            >
+            <br />
+            <br />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
